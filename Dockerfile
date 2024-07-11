@@ -13,7 +13,7 @@ COPY hivemq-mqtt-web-client/.htaccess /app
 COPY hivemq-mqtt-web-client/config.js /app
 COPY hivemq-mqtt-web-client/HEADER /app
 COPY hivemq-mqtt-web-client/index.html /app
-COPY hivemq-mqtt-web-client/LICENSE /app
+#COPY hivemq-mqtt-web-client/LICENSE /app
 
 COPY env-vars-entrypoint.sh /env-vars-entrypoint.sh
 
